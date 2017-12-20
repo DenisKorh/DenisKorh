@@ -19,6 +19,10 @@ a:hover {
     color:#010101;
 
 }
+.navbar-nav > li > a:hover {
+	background-color: #fcdb00;
+
+}
 
 
 .logo {
@@ -132,14 +136,7 @@ button {
 
 
 
-@media screen and (max-width: 530px){
-	.icon-max-530{
-		position: relative;
-	top: 10px;
-	}
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px)  {
 	.text-max-767{
 		text-align: center;
 	}
@@ -152,3 +149,4 @@ button {
 	}
 
 }
+
